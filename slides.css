@@ -10,6 +10,8 @@
     height: 600px;
     background-image: url(images/background1.jpg);
     text-align: center;
+    font-family: Lucida Grande;
+    color: black;
 }
 
 #extra{
@@ -62,4 +64,50 @@
     background-image: url(images/background2.jpg);
     width: auto;
     height: 400px;
+}
+
+#team{
+    width: auto;
+    height: 600px;
+}
+
+#team-heading{
+    width: auto;
+    height: 40px;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-family: Lucida Grande;
+}
+
+#team-content{
+    width: auto;
+    text-align: center;
+    margin: 0px;
+    font-family: Lucida Grande;
+}
+
+#team_image{
+    width: auto;
+    height: 300px;
+    padding: 90px 180px;
+}
+
+#team_image_1{
+    float: left;
+    padding: 40px;
+}
+
+#team_image_2{
+    float: left;
+}
+
+#team_image_3{
+    float: right;
+}
+
+#review{
+    width: auto;
+    height: 500px;
+    background-image: url(images/review.jpg);
+    opacity: .43;
 }
