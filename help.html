@@ -3,17 +3,114 @@
     <head>
         <meta charset="utf-8">
         <title>Help</title>
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="pages.css">
     </head>
     
     <body>
         <header>
-            <a href="index.html"><img src="images/logo.png"></a>
-            <a href="index.html">HOME</a>
-            <a href="notice.html">NOTICES</a>
-            <a href="login.html">LOGIN</a>
-            <a href="results.html">RESULTS</a>
-            <a href="help.html">HELP</a>
-            <a href="aboutus.html">ABOUT US</a>
+            <div id="head">
+                <div id="logo">
+                    <img src="images/logo.png">
+                </div>
+                <div id="links">
+                    <div id="home">
+                        <a href="">HOME</a>
+                    </div>
+                    <div id="notices">
+                        <a href="">NOTICES</a>
+                    </div>
+                    <div id="login">
+                        <a href="">LOGIN</a>
+                    </div>
+                    <div id="results">
+                        <a href="">RESULTS</a>
+                    </div>
+                    <div id="help">
+                        <a href="">HELP</a>
+                    </div>
+                    <div id="about">
+                        <a href="">ABOUT US</a>
+                    </div>
+                </div>
+            </div>
         </header>
+        
+        <!--Page Title-->
+        <div class="page-title">
+            <h1 class="page-name">HELP</h1>
+        </div>
+        <!--End-->
+        
+        <div id="help-form">
+            <h1 class="page-heading">HELP</h1>
+            <p class="page-text">ARE YOU FACING ANY PROBLEM ? DON'T WORRY, WE WILL HAPPY TO HELP YOU.</p>
+            <div id="help-input">
+                <form action="" method="post">
+                    <ol>
+                        <p class=help-p>
+                            <label>Name: </label>
+                            <input type="text" name="name" id="help-name">
+                        </p>
+                        <br>
+                        <p class=help-p>
+                            <label>Email: </label>
+                            <input type="text" name="userid" id="help-email">
+                        </p>
+                        <br>
+                        <p class=help-p>
+                            <label>Whats Your Issue: </label><br>
+                            <textarea name="issue" rows="9" cols="100" id="problem"></textarea>
+                        </p>
+                        <br>
+                        <p>
+                            <input type="submit" value="SEND" class="help-send">
+                            <input type="reset" value="RESET" class="help-reset">
+                        </p>
+                    </ol>
+                </form>
+            </div>
+        </div>
+        
+        <!--Footer-->
+        <div id="footer1">
+            <div id="details">
+                <h1 id="last-id">AD'S VOTING SYSTEM</h1>
+                <br>
+                <p >This Voting System is a winter project made by Ankit and Deepak student of IT-1, NSIT under the guidence of Deepak Kumar, Assistant professor at NSIT, IT Department.</p>
+                <hr>
+                <p>ankitmp3@hotmail.com</p>
+                <hr>
+                <p>+91 7503649465</p>
+                <hr>
+                <p>Netaji Subhas Institute Of Technology<br>Azad Hind Fauz Marg, Sector 3, Dwarka, Dwarka Sector-3, Dwarka, New Delhi, Delhi 110078</p>
+            </div>
+        </div>
+        <div id="footer2">
+            <div id="bottom-links">
+                <span id="b_home">
+                    <a href="" class="b-link">HOME</a>
+                </span>
+                <span id="b_notices">
+                    <a href="" class="b-link">NOTICES</a>
+                </span>
+                <span id="b_login">
+                    <a href="" class="b-link">LOGIN</a>
+                </span>
+                <span id="b_results">
+                    <a href="" class="b-link">RESULTS</a>
+                </span>
+                <span id="b_help">
+                    <a href="" class="b-link">HELP</a>
+                </span>
+                <span id="b_about">
+                    <a href="" class="b-link">ABOUT US</a>
+                </span>
+            </div>
+            <div id="copyright">
+                <p>Copyright &copy; 2018 Ankit. All rights reserved.</p>
+            </div>
+        </div>
+        <!--End-->
     </body>
 </html>
