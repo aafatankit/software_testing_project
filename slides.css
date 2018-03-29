@@ -3,6 +3,7 @@
     width: auto;
     height: 800px;
     background-image: url(images/slide1.jpg);
+    background-size: 115%;
 }
 
 #feature{
