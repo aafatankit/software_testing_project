@@ -1,3 +1,7 @@
+body{
+    min-width: 1420px;
+}
+
 #slide{
     box-sizing: content-box;
     width: auto;
