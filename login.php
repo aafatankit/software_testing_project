@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -47,7 +48,12 @@
             <p class="page-text">HAVING TROUBLE WHILE LOGIN? CLICK <a href="help.html">HERE</a></p>
             <div id="form-input">
                 <form action="Validation.php" method="POST">
-                    <ol>
+                   
+                     <?php
+                          if(isset($_SESSION['error']))
+                           echo $_SESSION['error'];
+                     ?>
+                     <ol>
                         <p>
                             <input type="text" name="email" placeholder="Email ID" id="email">
                         </p>
@@ -108,3 +114,8 @@
         <!--End-->
     </body>
 </html>
+
+<?php
+unset($_SESSION['error']);
+?>
+
