@@ -28,7 +28,7 @@ if($num == 1)
 }
 else 
 {   
-    echo 'MISTAKE';
-    //header('location:index.html');
+    $_SESSION['error'] = "INVALID LOGIN CREDENTIALS.......LOGIN AGAIN!!!!";
+    header('location:login.php');
 }
     

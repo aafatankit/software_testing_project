@@ -1,6 +1,5 @@
 <?php
 
-echo $_POST['cId'];
 include 'configure.php';
 $vid = $_SESSION['voterId'];
 $vq = "Select * from Voter where vId = $vid";

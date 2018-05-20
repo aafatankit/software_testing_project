@@ -57,7 +57,6 @@
     echo '<script type="text/javascript">
       function vote(e){
       var id = e.target.id;
-      alert(id);
       $.post("incV.php", {cId:id}, function(returned_data){
       console.log(alert(returned_data)); 
       });
