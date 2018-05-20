@@ -5,7 +5,7 @@ body{
 .page-title{
     width: auto;
     height: 270px;
-    background-image: url(images/home10-bg-testimonial1.jpg);
+    background-image: url(../images/home10-bg-testimonial1.jpg);
     color: white;
     font-size: 25px;
     font-family: Lucida Grande;
@@ -51,7 +51,7 @@ body{
 #form-input{
     margin: 90px 300px 80px 300px;
     padding: 30px 155px;
-    background-image: url(images/background1.jpg);
+    background-image: url(../images/background1.jpg);
 }
 
 input{
@@ -67,7 +67,7 @@ input#email{
     background-repeat: no-repeat;
     font-size: 26px;
     font-family: Lucida Grande;
-    background-image: url(images/icon1.png);
+    background-image: url(../images/icon1.png);
     padding: 4px 4px 4px 37px;
     background-position: 2px;
     font-weight: 100;
@@ -82,7 +82,7 @@ input#voterid{
     background-repeat: no-repeat;
     font-size: 26px;
     font-family: Lucida Grande;
-    background-image: url(images/icon2.png);
+    background-image: url(../images/icon2.png);
     padding: 4px 4px 4px 37px;
     background-position: 2px;
     font-weight: 100;
@@ -97,7 +97,7 @@ input#pswd{
     background-repeat: no-repeat;
     font-size: 26px;
     font-family: Lucida Grande;
-    background-image: url(images/icon3.png);
+    background-image: url(../images/icon3.png);
     padding: 4px 4px 4px 37px;
     background-position: 2px;
     font-weight: 100;
@@ -123,7 +123,7 @@ input#data-send{
 #help-input{
     margin: 90px 240px 90px 240px;
     padding: 20px 20px;
-    background-image: url(images/background3.png);
+    background-image: url(../images/background3.png);
     height: 620px;
 }
 
