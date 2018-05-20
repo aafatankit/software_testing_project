@@ -7,5 +7,5 @@ if(!$con)
 	echo 'no connection';
 }
 
-mysqli_select_db($con,'VotingSystem');
+mysqli_select_db($con,'practical');
 ?>
